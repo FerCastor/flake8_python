@@ -1,4 +1,3 @@
-from fila_normal import FilaNormal
 from fila_prioritaria import FilaPrioritaria
 
 """fila_teste = FilaNormal()
@@ -17,4 +16,4 @@ fila_teste2.atualiza_fila()
 print(fila_teste2.chama_clientes(10))
 fila_teste2.atualiza_fila()
 print(fila_teste2.chama_clientes(15))
-print(fila_teste2.estatistica('10/10/2010', 198, 'detail'))
+print(fila_teste2.estatistica('10/10/2010', 197, 'detail'))
