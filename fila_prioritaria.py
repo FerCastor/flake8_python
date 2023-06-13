@@ -19,7 +19,7 @@ class FilaPrioritaria(FilaBase):
         if flag != 'detail':
             estatistica = {f'{agencia} - {dia}': len(self.clientes_atendidos)}
         else:
-            estatistica = {}
+            estatistica = dict()
             estatistica['dia'] = dia
             estatistica['agencia'] = agencia
             estatistica['clientes_atendidos'] = self.clientes_atendidos
