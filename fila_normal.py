@@ -9,4 +9,4 @@ class FilaNormal(FilaBase):
     def chama_cliente(self, caixa: int) -> str:
         cliente_atual: str = self.fila.pop(0)
         self.clientes_atendidos.append(cliente_atual)
-        return f'Senha atual: {cliente_atual} -> Caixa: {caixa}'
+        return f'Senha: {cliente_atual} -> Caixa: {caixa}'
